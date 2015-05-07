@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>0</x>
+      <y>30</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Deck
+--
+
+-Number:String
+-Suite:String
+--
++Deck(Number:String,Suite:String)
++show():String
++get()/set()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>250</x>
+      <y>30</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Player
+--
+-name:String
+-card:String
++cardsPlayer[]:String
+--
++player(String,String)
++showCards()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>700</x>
+      <y>30</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Main
+--
++myDeck:Hashtable
++myShuffledDeck:Hashtable
+--
++shuffleCards()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>480</x>
+      <y>30</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Match
+--
+-substractedCards[]:String
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
